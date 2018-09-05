@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 3fa2be3dae17e4146879156778ad6e96
+timeCreated: 1535736188
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Character
+    100004: Character 1
+    100006: Chest
+    100008: Chest_ctrl
+    100010: COG
+    100012: COG_ctrl
+    100014: Glow
+    100016: Glow 1
+    100018: Grey
+    100020: Head
+    100022: Head_ctrl
+    100024: Head_End
+    100026: //RootNode
+    100028: IK Chain001
+    100030: IK Chain002
+    100032: IK Chain003
+    100034: IK Chain004
+    100036: IK Chain005
+    100038: IK Chain006
+    100040: IK Chain007
+    100042: IK Chain008
+    100044: L_Arm
+    100046: L_Clavical
+    100048: L_Clavical_ctrl
+    100050: L_Elbow_ctrl
+    100052: L_F1_End
+    100054: L_F1_joint_1
+    100056: L_F1_joint_1_ctrl
+    100058: L_F1_joint_2
+    100060: L_F1_joint_2_ctrl
+    100062: L_F1_joint_3
+    100064: L_F1_joint_3_ctrl
+    100066: L_F2_End
+    100068: L_F2_joint_1
+    100070: L_F2_joint_1_ctrl
+    100072: L_F2_joint_2
+    100074: L_F2_joint_2_ctrl
+    100076: L_F2_joint_3
+    100078: L_F2_joint_3_ctrl
+    100080: L_F3_End
+    100082: L_F3_joint_1
+    100084: L_F3_joint_1_ctrl
+    100086: L_F3_joint_2
+    100088: L_F3_joint_2_ctrl
+    100090: L_F3_joint_3
+    100092: L_F3_joint_3_ctrl
+    100094: L_F4_End
+    100096: L_F4_joint_1
+    100098: L_F4_joint_1_ctrl
+    100100: L_F4_joint_2
+    100102: L_F4_joint_2_ctrl
+    100104: L_F4_joint_3
+    100106: L_F4_joint_3_ctrl
+    100108: L_Foot
+    100110: L_Forearm
+    100112: L_Knee_ctrl
+    100114: L_Leg
+    100116: L_Thigh
+    100118: L_thumb_End
+    100120: L_thumb_joint_1
+    100122: L_thumb_joint_1_ctrl
+    100124: L_thumb_joint_2
+    100126: L_thumb_joint_2_ctrl
+    100128: L_thumb_joint_3
+    100130: L_thumb_joint_3_ctrl
+    100132: L_Toes
+    100134: L_Toes_End
+    100136: L_Wrist
+    100138: L_Wrist_ctrl
+    100140: Master_ctrl
+    100142: Neck
+    100144: Neck_ctrl
+    100146: Outlines
+    100148: R_Arm
+    100150: R_Clavical
+    100152: R_Clavical_ctrl
+    100154: R_Elbow_ctrl
+    100156: R_F1_End
+    100158: R_F1_joint_1
+    100160: R_F1_joint_1_ctrl
+    100162: R_F1_joint_2
+    100164: R_F1_joint_2_ctrl
+    100166: R_F1_joint_3
+    100168: R_F1_joint_3_ctrl
+    100170: R_F2_End
+    100172: R_F2_joint_1
+    100174: R_F2_joint_1_ctrl
+    100176: R_F2_joint_2
+    100178: R_F2_joint_2_ctrl
+    100180: R_F2_joint_3
+    100182: R_F2_joint_3_ctrl
+    100184: R_F3_End
+    100186: R_F3_joint_1
+    100188: R_F3_joint_1_ctrl
+    100190: R_F3_joint_2
+    100192: R_F3_joint_2_ctrl
+    100194: R_F3_joint_3
+    100196: R_F3_joint_3_ctrl
+    100198: R_F4_End
+    100200: R_F4_joint_1
+    100202: R_F4_joint_1_ctrl
+    100204: R_F4_joint_2
+    100206: R_F4_joint_2_ctrl
+    100208: R_F4_joint_3
+    100210: R_F4_joint_3_ctrl
+    100212: R_Foot
+    100214: R_Foot_ctrl
+    100216: R_Foot_ctrl 1
+    100218: R_Forearm
+    100220: R_Hand_End
+    100222: R_Hand_End(mirrored)
+    100224: R_Knee_ctrl
+    100226: R_Leg
+    100228: R_Thigh
+    100230: R_thumb_End
+    100232: R_thumb_joint_1
+    100234: R_thumb_joint_1_ctrl
+    100236: R_thumb_joint_2
+    100238: R_thumb_joint_2_ctrl
+    100240: R_thumb_joint_3
+    100242: R_thumb_joint_3_ctrl
+    100244: R_Toes
+    100246: R_Toes_End
+    100248: R_Wrist
+    100250: R_Wrist_ctrl
+    100252: Stomach
+    100254: Stomach_ctrl
+    100256: Weapon
+    400000: Body
+    400002: Character
+    400004: Character 1
+    400006: Chest
+    400008: Chest_ctrl
+    400010: COG
+    400012: COG_ctrl
+    400014: Glow
+    400016: Glow 1
+    400018: Grey
+    400020: Head
+    400022: Head_ctrl
+    400024: Head_End
+    400026: //RootNode
+    400028: IK Chain001
+    400030: IK Chain002
+    400032: IK Chain003
+    400034: IK Chain004
+    400036: IK Chain005
+    400038: IK Chain006
+    400040: IK Chain007
+    400042: IK Chain008
+    400044: L_Arm
+    400046: L_Clavical
+    400048: L_Clavical_ctrl
+    400050: L_Elbow_ctrl
+    400052: L_F1_End
+    400054: L_F1_joint_1
+    400056: L_F1_joint_1_ctrl
+    400058: L_F1_joint_2
+    400060: L_F1_joint_2_ctrl
+    400062: L_F1_joint_3
+    400064: L_F1_joint_3_ctrl
+    400066: L_F2_End
+    400068: L_F2_joint_1
+    400070: L_F2_joint_1_ctrl
+    400072: L_F2_joint_2
+    400074: L_F2_joint_2_ctrl
+    400076: L_F2_joint_3
+    400078: L_F2_joint_3_ctrl
+    400080: L_F3_End
+    400082: L_F3_joint_1
+    400084: L_F3_joint_1_ctrl
+    400086: L_F3_joint_2
+    400088: L_F3_joint_2_ctrl
+    400090: L_F3_joint_3
+    400092: L_F3_joint_3_ctrl
+    400094: L_F4_End
+    400096: L_F4_joint_1
+    400098: L_F4_joint_1_ctrl
+    400100: L_F4_joint_2
+    400102: L_F4_joint_2_ctrl
+    400104: L_F4_joint_3
+    400106: L_F4_joint_3_ctrl
+    400108: L_Foot
+    400110: L_Forearm
+    400112: L_Knee_ctrl
+    400114: L_Leg
+    400116: L_Thigh
+    400118: L_thumb_End
+    400120: L_thumb_joint_1
+    400122: L_thumb_joint_1_ctrl
+    400124: L_thumb_joint_2
+    400126: L_thumb_joint_2_ctrl
+    400128: L_thumb_joint_3
+    400130: L_thumb_joint_3_ctrl
+    400132: L_Toes
+    400134: L_Toes_End
+    400136: L_Wrist
+    400138: L_Wrist_ctrl
+    400140: Master_ctrl
+    400142: Neck
+    400144: Neck_ctrl
+    400146: Outlines
+    400148: R_Arm
+    400150: R_Clavical
+    400152: R_Clavical_ctrl
+    400154: R_Elbow_ctrl
+    400156: R_F1_End
+    400158: R_F1_joint_1
+    400160: R_F1_joint_1_ctrl
+    400162: R_F1_joint_2
+    400164: R_F1_joint_2_ctrl
+    400166: R_F1_joint_3
+    400168: R_F1_joint_3_ctrl
+    400170: R_F2_End
+    400172: R_F2_joint_1
+    400174: R_F2_joint_1_ctrl
+    400176: R_F2_joint_2
+    400178: R_F2_joint_2_ctrl
+    400180: R_F2_joint_3
+    400182: R_F2_joint_3_ctrl
+    400184: R_F3_End
+    400186: R_F3_joint_1
+    400188: R_F3_joint_1_ctrl
+    400190: R_F3_joint_2
+    400192: R_F3_joint_2_ctrl
+    400194: R_F3_joint_3
+    400196: R_F3_joint_3_ctrl
+    400198: R_F4_End
+    400200: R_F4_joint_1
+    400202: R_F4_joint_1_ctrl
+    400204: R_F4_joint_2
+    400206: R_F4_joint_2_ctrl
+    400208: R_F4_joint_3
+    400210: R_F4_joint_3_ctrl
+    400212: R_Foot
+    400214: R_Foot_ctrl
+    400216: R_Foot_ctrl 1
+    400218: R_Forearm
+    400220: R_Hand_End
+    400222: R_Hand_End(mirrored)
+    400224: R_Knee_ctrl
+    400226: R_Leg
+    400228: R_Thigh
+    400230: R_thumb_End
+    400232: R_thumb_joint_1
+    400234: R_thumb_joint_1_ctrl
+    400236: R_thumb_joint_2
+    400238: R_thumb_joint_2_ctrl
+    400240: R_thumb_joint_3
+    400242: R_thumb_joint_3_ctrl
+    400244: R_Toes
+    400246: R_Toes_End
+    400248: R_Wrist
+    400250: R_Wrist_ctrl
+    400252: Stomach
+    400254: Stomach_ctrl
+    400256: Weapon
+    2100000: 09 - Default
+    2100002: 03 - Default
+    2100004: 08 - Default
+    2100006: 07 - Default
+    2300000: Body
+    2300002: Glow 1
+    2300004: Grey
+    3300000: Body
+    3300002: Glow 1
+    3300004: Grey
+    4300000: Glow
+    4300002: Grey
+    4300004: Body
+    4300006: Glow
+    4300008: Character
+    4300010: Outlines
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Character 1
+    13700002: Glow
+    13700004: Outlines
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
